@@ -34,8 +34,10 @@ const Footer = () => {
 
             <div className='text-black text-center md:text-start mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-6'>
                 <div className='flex flex-col items-center md:items-baseline'>
-                    <RiLeafFill size={55} className='text-green-700' />
-                    <p className={`${font.lobsterFont.className} text-2xl text-green-700`}>LeafLens</p>
+                    <div className=' flex flex-col items-center'>
+                        <RiLeafFill size={55} className='text-green-700 ' />
+                        <p className={`${font.lobsterFont.className} text-2xl text-green-700`}>LeafLens</p>
+                    </div>
                 </div>
 
                 <div className='flex flex-col gap-3'>
@@ -63,7 +65,7 @@ const Footer = () => {
                     <p className='text-lg font-bold'>Contact Us</p>
                     <div className='flex flex-col gap-0.5'>
                         <p>+88 333 78 901</p>
-                        <p>lightcodecamp@gmail.com</p>
+                        <p>ahmed.tnvr999@gmail.com</p>
                         <p className='mt-3'>1234 Tailwind Ave, CSS City, Webland 56789, USA</p>
                     </div>
                 </div>

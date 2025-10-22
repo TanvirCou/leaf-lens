@@ -6,9 +6,9 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { font } from '@/app/layout';
 import Image from 'next/image';
 import { RiDoubleQuotesR } from '@remixicon/react';
+import { lobsterFont } from '@/utils/font';
 
 export default function Slider() {
   return (
@@ -35,7 +35,7 @@ export default function Slider() {
       >
         <SwiperSlide>
           <div className='flex flex-col gap-4 bg-green-900 rounded-md p-6'>
-            <p className={font.lobsterFont.className}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
+            <p className={lobsterFont.className}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
             <div className='flex items-center justify-between w-full'>
               <div className='flex items-center gap-3'>
                 <Image src="/review-1.jpg" alt='' height={32} width={32} className='rounded-full w-12 h-12 object-cover' />
@@ -50,7 +50,7 @@ export default function Slider() {
         </SwiperSlide>
         <SwiperSlide>
           <div className='flex flex-col gap-4 bg-green-900 rounded-md p-6'>
-            <p className={font.lobsterFont.className}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
+            <p className={lobsterFont.className}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
             <div className='flex items-center justify-between w-full'>
               <div className='flex items-center gap-3'>
                 <Image src="/review-2.jpg" alt='' height={32} width={32} className='rounded-full w-12 h-12 object-cover' />
@@ -65,7 +65,7 @@ export default function Slider() {
         </SwiperSlide>
         <SwiperSlide>
           <div className='flex flex-col gap-4 bg-green-900 rounded-md p-6'>
-            <p className={font.lobsterFont.className}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
+            <p className={lobsterFont.className}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
             <div className='flex items-center justify-between w-full'>
               <div className='flex items-center gap-3'>
                 <Image src="/review-3.jpg" alt='' height={32} width={32} className='rounded-full w-12 h-12 object-cover' />
@@ -80,7 +80,7 @@ export default function Slider() {
         </SwiperSlide>
         <SwiperSlide>
           <div className='flex flex-col gap-4 bg-green-900 rounded-md p-6'>
-            <p className={font.lobsterFont.className}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
+            <p className={lobsterFont.className}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
             <div className='flex items-center justify-between w-full'>
               <div className='flex items-center gap-3'>
                 <Image src="/review-4.jpg" alt='' height={32} width={32} className='rounded-full w-12 h-12 object-cover' />
@@ -95,7 +95,7 @@ export default function Slider() {
         </SwiperSlide>
         <SwiperSlide>
           <div className='flex flex-col gap-4 bg-green-900 rounded-md p-6'>
-            <p className={font.lobsterFont.className}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
+            <p className={lobsterFont.className}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
             <div className='flex items-center justify-between w-full'>
               <div className='flex items-center gap-3'>
                 <Image src="/review-1.jpg" alt='' height={32} width={32} className='rounded-full w-12 h-12 object-cover' />

@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { RiCloseLine, RiMenu4Line } from '@remixicon/react'
-import { font } from '@/app/layout'
+import { lobsterFont } from '@/utils/font'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <div className={`px-8 md:px-20 flex items-center h-16 w-full justify-between bg-green-950 fixed z-50 shadow-sm ${scrollY >= 50 ? "border-b border-yellow-500" : "border-none"}`}>
-      <p className={`text-xl md:text-3xl ${font.lobsterFont.className}`}>LeafLens</p>
+      <p className={`text-xl md:text-3xl ${lobsterFont.className}`}>LeafLens</p>
 
       <div className={`absolute top-0 ${isOpen ? 'left-0' : '-left-[100%]'} duration-300 z-50 min-h-[80vh] w-full max-md:bg-green-950/80 max-md:backdrop-blur-sm flex items-center justify-center md:justify-end overflow-hidden md:static `}>
         <div className='flex flex-col md:flex-row items-center gap-8 font-semibold duration-300'>

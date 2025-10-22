@@ -1,5 +1,5 @@
-import { font } from '@/app/layout'
-import { RiArrowGoBackFill, RiArrowRightBoxFill, RiArrowRightFill, RiArrowUpLine, RiFacebookFill, RiInstagramLine, RiLeafFill, RiLinkedinFill, RiTwitterLine } from '@remixicon/react'
+import { lobsterFont } from '@/utils/font'
+import { RiArrowRightFill, RiArrowUpLine, RiFacebookFill, RiInstagramLine, RiLeafFill, RiLinkedinFill, RiTwitterLine } from '@remixicon/react'
 import Image from 'next/image'
 import React from 'react'
 
@@ -15,7 +15,7 @@ const Footer = () => {
 
                 <div className='flex flex-col  md:flex-row gap-2'>
                     <input type="email" placeholder='Enter your email' className='bg-white w-full outline-none text-gray-700 font-medium text-sm p-2 rounded-md' />
-                    <button className='flex items-center px-4 py-2 bg-green-950 rounded-md gap-1 w-fit'>
+                    <button className='flex items-center px-4 py-2 bg-green-950 rounded-md gap-1 w-fit cursor-pointer hover:bg-yellow-500 duration-300'>
                         Subscribe
                         <RiArrowRightFill size={18} />
                     </button>
@@ -36,7 +36,7 @@ const Footer = () => {
                 <div className='flex flex-col items-center md:items-baseline'>
                     <div className=' flex flex-col items-center'>
                         <RiLeafFill size={55} className='text-green-700 ' />
-                        <p className={`${font.lobsterFont.className} text-2xl text-green-700`}>LeafLens</p>
+                        <p className={`${lobsterFont.className} text-2xl text-green-700`}>LeafLens</p>
                     </div>
                 </div>
 

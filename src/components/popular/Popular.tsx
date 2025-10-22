@@ -1,4 +1,4 @@
-import { font } from '@/app/layout'
+import { lobsterFont } from '@/utils/font'
 import { RiShoppingCart2Fill, RiStarFill, RiStarHalfFill, RiStarLine } from '@remixicon/react'
 import Image from 'next/image'
 import React from 'react'
@@ -9,7 +9,7 @@ const Popular = () => {
 
 
             <div className='pt-8 flex flex-col items-center'>
-                <p className={`${font.lobsterFont.className} text-yellow-500 text-2xl md:text-3xl lg:text-4xl`}>Your Choice Plant</p>
+                <p className={`${lobsterFont.className} text-yellow-500 text-2xl md:text-3xl lg:text-4xl`}>Your Choice Plant</p>
                 <p className='text-sm pt-2'>Follow instruction for more</p>
 
                 <div className='mt-36 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8 gap-y-40'>
@@ -30,7 +30,7 @@ const Popular = () => {
                         <div className='flex items-center justify-between'>
                             <p className='text-2xl'>$5</p>
 
-                            <button className='bg-yellow-500 p-2 rounded-md cursor-pointer'>
+                            <button className='bg-yellow-500 p-2 rounded-md cursor-pointer hover:opacity-70 duration-300'>
                                 <RiShoppingCart2Fill size={20} />
                             </button>
                         </div>
@@ -53,7 +53,7 @@ const Popular = () => {
                         <div className='flex items-center justify-between'>
                             <p className='text-2xl'>$5</p>
 
-                            <button className='bg-yellow-500 p-2 rounded-md cursor-pointer'>
+                            <button className='bg-yellow-500 p-2 rounded-md cursor-pointer hover:opacity-70 duration-300'>
                                 <RiShoppingCart2Fill size={20} />
                             </button>
                         </div>
@@ -76,7 +76,7 @@ const Popular = () => {
                         <div className='flex items-center justify-between'>
                             <p className='text-2xl'>$5</p>
 
-                            <button className='bg-yellow-500 p-2 rounded-md cursor-pointer'>
+                            <button className='bg-yellow-500 p-2 rounded-md cursor-pointer hover:opacity-70 duration-300'>
                                 <RiShoppingCart2Fill size={20} />
                             </button>
                         </div>
@@ -99,7 +99,7 @@ const Popular = () => {
                         <div className='flex items-center justify-between'>
                             <p className='text-2xl'>$5</p>
 
-                            <button className='bg-yellow-500 p-2 rounded-md cursor-pointer'>
+                            <button className='bg-yellow-500 p-2 rounded-md cursor-pointer hover:opacity-70 duration-300'>
                                 <RiShoppingCart2Fill size={20} />
                             </button>
                         </div>

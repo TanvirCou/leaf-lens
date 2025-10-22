@@ -1,4 +1,4 @@
-import { font } from '@/app/layout'
+import { lobsterFont } from '@/utils/font'
 import { RiCustomerService2Line, RiMoneyDollarCircleLine, RiPlantLine, RiTruckLine } from '@remixicon/react'
 import React from 'react'
 
@@ -11,7 +11,7 @@ const Services = () => {
                         <RiTruckLine size={30} className=' text-green-950' />
                         <p className='md:text-lg font-bold'>Fast <br /> Delivery</p>
                     </div>
-                    <p className={font.lobsterFont.className}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis</p>
+                    <p className={lobsterFont.className}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis</p>
                 </div>
 
                 <div className='border border-green-950 w-fit flex flex-col gap-3 rounded-md p-4 hover:-translate-y-3 hover:shadow-md duration-500'>
@@ -19,7 +19,7 @@ const Services = () => {
                         <RiCustomerService2Line size={30} className=' text-green-950' />
                         <p className='md:text-lg font-bold'>Great Customer <br /> Service</p>
                     </div>
-                    <p className={font.lobsterFont.className}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis</p>
+                    <p className={lobsterFont.className}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis</p>
                 </div>
 
                 <div className='border border-green-950 w-fit flex flex-col gap-3 rounded-md p-4 hover:-translate-y-3 hover:shadow-md duration-500'>
@@ -27,7 +27,7 @@ const Services = () => {
                         <RiPlantLine size={30} className=' text-green-950' />
                         <p className='md:text-lg font-bold'>Original <br /> Plants</p>
                     </div>
-                    <p className={font.lobsterFont.className}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis</p>
+                    <p className={lobsterFont.className}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis</p>
                 </div>
 
                 <div className='border border-green-950 w-fit flex flex-col gap-3 rounded-md p-4 hover:-translate-y-3 hover:shadow-md duration-500'>
@@ -35,7 +35,7 @@ const Services = () => {
                         <RiMoneyDollarCircleLine size={30} className=' text-green-950' />
                         <p className='md:text-lg font-bold'>Affordable <br /> Price</p>
                     </div>
-                    <p className={font.lobsterFont.className}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis</p>
+                    <p className={lobsterFont.className}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis</p>
                 </div>
             </div>
         </div>

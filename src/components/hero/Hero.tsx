@@ -1,4 +1,4 @@
-import { font } from '@/app/layout'
+import { lobsterFont } from '@/utils/font'
 import { RiFacebookFill, RiFlowerLine, RiInstagramLine, RiLeafLine, RiLinkedinFill, RiPlantLine, RiTwitterFill, RiTwitterLine } from '@remixicon/react'
 import Image from 'next/image'
 import React from 'react'
@@ -17,7 +17,7 @@ const Hero = () => {
                     <div className='flex flex-col gap-4'>
                         <p className='text-3xl md:text-4xl xl:text-5xl font-bold'> <span className='text-yellow-500'>Plants</span> makes a <br /> positive <span className='text-yellow-500'>imapct</span> on <br /> your environment</p>
 
-                        <p className={font.lobsterFont.className}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio fugiat eveniet, reprehenderit veritatis aut explicabo voluptatum ullam itaque tenetur numquam!</p>
+                        <p className={lobsterFont.className}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio fugiat eveniet, reprehenderit veritatis aut explicabo voluptatum ullam itaque tenetur numquam!</p>
                     </div>
 
                     <div className='flex flex-col gap-4'>
@@ -33,7 +33,7 @@ const Hero = () => {
                             </button>
                         </div>
 
-                        <p className={`text-sm ${font.lobsterFont.className}`}>You will get 30-days free trial.</p>
+                        <p className={`text-sm ${lobsterFont.className}`}>You will get 30-days free trial.</p>
                     </div>
                     <div className='flex items-center gap-3'>
                         <RiFacebookFill size={20} className='hover:text-yellow-500 cursor-pointer duration-300' />

@@ -5,7 +5,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className='pt-20 md:pt-28 px-8 md:px-12 lg:px-24 bg-green-950 relative'>
+        <div className='pt-20 pb-10 md:pt-28 px-8 md:px-12 lg:px-24 bg-green-950 relative' id='home'>
 
             <div className='w-64 h-64 bg-green-700 opacity-30 rounded-full blur-3xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
             </div>
@@ -44,13 +44,13 @@ const Hero = () => {
 
                 </div>
 
-                <div className='md:w-1/2 relative top-12 md:top-0'>
+                <div className='md:w-1/2 relative top-6 md:top-0'>
                     <div className='w-full flex items-center justify-center'>
                         <Image src='/home.png' width={400} height={400} alt='' />
                     </div>
                     <RiLeafLine size={40} className='absolute -top-5 right-0 opacity-50 text-yellow-500 moveY' />
                     <RiFlowerLine size={40} className='absolute bottom-0 left-5 opacity-50 text-yellow-500 spin' />
-                    <RiPlantLine size={40} className='absolute -top-5 left-5 opacity-50 text-yellow-500 scaleUpDown' />
+                    <RiPlantLine size={40} className='absolute hidden md:block -top-5 left-5 opacity-50 text-yellow-500 scaleUpDown' />
                 </div>
             </div>
         </div>

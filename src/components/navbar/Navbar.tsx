@@ -15,14 +15,10 @@ const Navbar = () => {
       setScrollY(window.scrollY);
     };
 
-    // Attach the event listener
     window.addEventListener("scroll", handleScroll);
 
-    // Cleanup when the component unmounts
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  console.log(scrollY);
 
 
   return (
@@ -31,10 +27,10 @@ const Navbar = () => {
 
       <div className={`absolute top-0 ${isOpen ? 'left-0' : '-left-[100%]'} duration-300 z-50 min-h-[80vh] w-full max-md:bg-green-950/80 max-md:backdrop-blur-sm flex items-center justify-center md:justify-end overflow-hidden md:static `}>
         <div className='flex flex-col md:flex-row items-center gap-8 font-semibold duration-300'>
-          <Link href="#home" className='hover:text-yellow-500'>Home</Link>
-          <Link href="#about" className='hover:text-yellow-500'>About</Link>
-          <Link href="#popular" className='hover:text-yellow-500'>Popular</Link>
-          <Link href="#review" className='hover:text-yellow-500'>Review</Link>
+          <Link href="#home" onClick={() => setIsOpen(false)} className='hover:text-yellow-500'>Home</Link>
+          <Link href="#about" onClick={() => setIsOpen(false)} className='hover:text-yellow-500'>About</Link>
+          <Link href="#popular" onClick={() => setIsOpen(false)} className='hover:text-yellow-500'>Popular</Link>
+          <Link href="#review" onClick={() => setIsOpen(false)} className='hover:text-yellow-500'>Review</Link>
         </div>
 
         <div className='md:hidden absolute -right-5 -bottom-5'>
